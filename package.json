@@ -1,5 +1,5 @@
 {
-  "name": "videobrowser",
+  "name": "VideoBrowser",
   "version": "1.0.0",
   "description": "Search and Play videos",
   "main": "index.js",
