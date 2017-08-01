@@ -15,3 +15,8 @@ Contains:
 
 0. ```npm install```
 0. ```npm start```
+
+
+## Demo
+
+![Alt text](/demo.png?raw=true "Demo Image")
