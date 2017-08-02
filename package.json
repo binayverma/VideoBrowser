@@ -4,7 +4,8 @@
   "description": "Search and Play videos",
   "main": "index.js",
   "scripts": {
-    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js"
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
+    "build": "rimraf dist && webpack --config ./webpack.production.config.js --progress --profile --colors && cp -R assets dist/assets"
   },
   "keywords": [
     "videoplayer",
@@ -12,7 +13,9 @@
     "browser",
     "reactjs",
     "youtubeapi",
-    "searchvideo"
+    "searchvideo",
+    "es6",
+    "react"
   ],
   "author": "Binay Verma (binayverma01@gmail.com)",
   "license": "MIT",
